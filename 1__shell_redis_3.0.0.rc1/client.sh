@@ -1,5 +1,7 @@
 #!/bin/bash
 
+arg='keys *'
+
 if [ $# -eq 0 ]; then
   redis-cli -c -p 7000
 elif [ $# -eq 1 ]; then 
